@@ -1,5 +1,6 @@
 //external imports
 const mongoose= require("mongoose");
+const PORT = process.env.PORT || 3000
 require('dotenv').config({ path: '.env' })
 
 mongoose.set("strictQuery", false);
